@@ -5,40 +5,37 @@
   --radius:12px;
 }
 
-body {
-  font-family: 'Great Vibes', cursive, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+body{
+  font-family:'Great Vibes', cursive, Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
   color:#0b2d5f;
   background:#ffffff;
 }
 
-/* Navbar Logo */
-.logo-cursive {
-  font-family: 'Great Vibes', cursive;
+.logo-cursive{
+  font-family:'Great Vibes', cursive;
   font-size:1.8rem;
   color:#fff;
 }
 
-.navbar-brand.logo-cursive {
+.navbar-brand.logo-cursive{
   font-size:1.6rem;
 }
 
-.navbar-nav .nav-link.active {
+.navbar-nav .nav-link.active{
   font-weight:700;
   text-decoration:underline;
 }
 
-/* Hero Section */
-.hero {
+.hero{
   background-image:linear-gradient(180deg, rgba(11,45,95,0.95), rgba(11,45,95,0.85));
   color:#fff;
 }
 
-.logo-cursive.display-6 {
+.logo-cursive.display-6{
   font-size:2rem;
 }
 
-/* Avatar Styling */
-.avatar {
+.avatar{
   width:72px;
   height:72px;
   display:flex;
@@ -49,21 +46,20 @@ body {
   font-size:20px;
 }
 
-.avatar.bg-primary {
+.avatar.bg-primary{
   background:var(--dark);
 }
 
-.card {
+.card{
   border-radius:12px;
 }
 
-/* Footer always at bottom */
-footer {
+footer{
   background:#f7f9fb;
-  margin-top:auto;
 }
 
-/* Responsive Fonts */
 @media (max-width:576px){
-  .logo-cursive{font-size:1.4rem}
+  .logo-cursive{
+    font-size:1.4rem;
+  }
 }
